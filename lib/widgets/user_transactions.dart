@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-import './transaction_list.dart';
-import './new_transaction.dart';
-
 class UserTransactions extends StatefulWidget {
   const UserTransactions({Key key}) : super(key: key);
 

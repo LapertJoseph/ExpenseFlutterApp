@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Chart(_recentTransactions), // Char Widget instance
-            TransactionList(_userTransactions, _deleteTransaction), // TransactionList Widget Instance
+            TransactionList(_userTransactions, _deleteTransaction),
           ],
         ),
       ),
